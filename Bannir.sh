@@ -26,6 +26,7 @@ ${Z}┃ [${G}2${Z}]${W} Desactivar un numero   ${Z}┃
 ${Z}┃ [${G}3${Z}]${W} Desbanear un numero    ${Z}┃
 ${Z}┃ [${G}4${Z}]${W} Sacar del -1 un numero ${Z}┃
 ${Z}┃ [${G}5${Z}]${W} Contactar creador      ${Z}┃
+${Z}┃ [${G}6${Z}]${W} Contactar colaborador  ${Z}┃
 ${Z}┃                            ┃
 ${Z}┃ [${G}00${Z}]${W} Salir                 ${Z}┃
 ${Z}└════════════════════════════┘
@@ -70,6 +71,9 @@ case $opcion in
    Bannir
 ;;
 5) xdg-open "https://wa.me/+573006709138?text=Hola,%20¿cómo%20estás%20＊*•̩̩͙✩•̩̩͙*˚ȼṛãcкãŀҽx*•̩̩͙✩•̩̩͙*˚＊"
+   Bannir
+;;
+6) xdg-open "https://wa.me/+529984907794?text=Hola,%20¿cómo%20estás%20＊*•̩̩͙✩•̩̩͙*˚ȼṛãcкãŀҽx*•̩̩͙✩•̩̩͙*˚＊"
    Bannir
 ;;
 00) echo "🧑‍💻saliendo del programa 🗡️.."
