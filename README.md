@@ -8,7 +8,7 @@ pkg install curl
 
 pkg install git
 
-git clone https://github.com/SolitarioH4ck/Bannir-X
+git clone https://github.com/Incongnito45/Bannir-XA-500
 
 cd Bannir-X
 
