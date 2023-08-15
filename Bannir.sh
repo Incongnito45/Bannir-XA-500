@@ -23,10 +23,11 @@ echo -e "
 ${Z}┌════════════════════════════┐
 ${Z}┃ [${G}1${Z}]${W} Abrir num en wa.me     ${Z}┃
 ${Z}┃ [${G}2${Z}]${W} Desactivar un numero   ${Z}┃
-${Z}┃ [${G}3${Z}]${W} Desbanear un numero    ${Z}┃
-${Z}┃ [${G}4${Z}]${W} Sacar del -1 un numero ${Z}┃
-${Z}┃ [${G}5${Z}]${W} Contactar creador      ${Z}┃
-${Z}┃ [${G}6${Z}]${W} Contactar colaborador  ${Z}┃
+${Z}┃ [${G}3${Z}]${W} Enviar a soporte       ${Z}┃
+${Z}┃ [${G}4${Z}]${W} Desbanear un numero    ${Z}┃
+${Z}┃ [${G}5${Z}]${W} Sacar del -1 un numero ${Z}┃
+${Z}┃ [${G}6${Z}]${W} Contactar creador      ${Z}┃
+${Z}┃ [${G}7${Z}]${W} Contactar colaborador  ${Z}┃
 ${Z}┃                            ┃
 ${Z}┃ [${G}00${Z}]${W} Salir                 ${Z}┃
 ${Z}└════════════════════════════┘
@@ -61,7 +62,29 @@ case $opcion in
    am start -a android.intent.action.SENDTO -d "mailto:support@support.whatsapp.com?&subject=Activen mi cuenta&body=Hola buenas noches, vengo a reclamar un error de suspensión a mi cuenta Hace aproximadamente un par de horas, estaba tranquilamente hablando con amigos cuando me llega un mensaje diciendo que mi WhatsApp fue registado en otro telefono; posterior a eso cuando intento ingresar me dice que mi cuenta Ha sido suspendida, por favor me ayuden a recuperar mi cuenta Yo nunca me e metido en nada malo o asido un mal Amigo que me iso eso. mi numero es:($numero)" com.google.android.gm  > /dev/null  2>&1 
    Bannir
 ;;
-4) clear
+4) echo -e -n  "${Z}Número:${W} "
+   read -r numero
+   am start -a android.intent.action.SENDTO -d "mailto:support@support.whatsapp.com?&subject=suspendan mi cuenta &body=Hola Atención:  Soporte de WhatsApp
+
+Estimado equipo de soporte de WhatsApp,
+
+Espero que este mensaje les encuentre bien. El motivo de mi comunicación es solicitar la suspensión temporal de mi cuenta de WhatsApp, bajo el número de teléfono [número de teléfono asociado a la cuenta].
+
+Debido a circunstancias personales/emocionales/profesionales que estoy atravesando en este momento, considero necesario tomar un descanso de todas las aplicaciones de mensajería instantánea, y esta decisión incluye la suspensión de mi cuenta de WhatsApp. Me gustaría aclarar, sin embargo, que esto no implica la eliminación definitiva de mi cuenta, sino simplemente una pausa temporal en su uso.
+
+Apreciaría que esta suspensión se llevara a cabo a partir del [fecha de inicio] y se mantuviera por un período de 24 horas. Durante este tiempo, me comprometo a no utilizar mi cuenta de WhatsApp y a no llevar a cabo ninguna actividad relacionada con la misma.
+
+Entiendo que, al suspender mi cuenta, no podré recibir ni enviar mensajes, realizar llamadas o acceder a cualquier otro servicio disponible en la plataforma. No obstante, comprendo que todos mis datos y conversaciones se mantendrán intactos hasta que decida reactivar mi cuenta de WhatsApp.
+
+Agradezco su atención y cooperación en este asunto. Por favor, confirmen la suspensión de mi cuenta por correo electrónico o al número de teléfono antes mencionado, a fin de tener una constancia de dicha suspensión.
+
+Si en algún momento deseo reactivar mi cuenta antes de que expire el período de suspensión, me comprometo a ponerme en contacto nuevamente con el equipo de soporte de WhatsApp para solicitar la reactivación.
+
+¡Agradezco de antemano su comprensión! Espero poder utilizar la plataforma nuevamente una vez que resuelva los asuntos personales/emocionales/profesionales que me están afectando mi número es: 
+($numero)" com.google.android.gm  > /dev/null  2>&1 
+   Bannir
+;;
+5) clear
    echo -e "          ${Z}#___________${W}Aviso${Z}__________#\n"
    echo -e "${W}Enviaras el correo tres veces seguidas para que se pueda restablecer los codes del numero\n"
    echo -e "${G}IMPORTANTE: ${W}Escribir el Numero sin espacios.\n"
