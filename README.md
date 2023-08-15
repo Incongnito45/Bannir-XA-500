@@ -10,6 +10,6 @@ pkg install git
 
 git clone https://github.com/Incongnito45/Bannir-XA-500
 
-cd Bannir-X
+cd Bannir-XA-500
 
 bash Bannir.sh
