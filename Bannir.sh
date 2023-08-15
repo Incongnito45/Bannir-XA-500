@@ -23,8 +23,8 @@ echo -e "
 ${Z}┌════════════════════════════┐
 ${Z}┃ [${G}1${Z}]${W} Abrir num en wa.me     ${Z}┃
 ${Z}┃ [${G}2${Z}]${W} Desactivar un numero   ${Z}┃
-${Z}┃ [${G}3${Z}]${W} Enviar a soporte       ${Z}┃
-${Z}┃ [${G}4${Z}]${W} Desbanear un numero    ${Z}┃
+${Z}┃ [${G}3${Z}]${W}  Desbanear un numero       ${Z}┃
+${Z}┃ [${G}4${Z}]${W} Enviar a soporte    ${Z}┃
 ${Z}┃ [${G}5${Z}]${W} Sacar del -1 un numero ${Z}┃
 ${Z}┃ [${G}6${Z}]${W} Contactar creador      ${Z}┃
 ${Z}┃ [${G}7${Z}]${W} Contactar colaborador  ${Z}┃
