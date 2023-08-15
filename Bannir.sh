@@ -93,10 +93,10 @@ Si en algún momento deseo reactivar mi cuenta antes de que expire el período d
    am start -a android.intent.action.SENDTO -d "mailto:support@support.whatsapp.com?&subject=Desactiven mi cuenta&body=Telefono robado/extraviado desactiven mi numero $numero" com.google.android.gm  > /dev/null  2>&1
    Bannir
 ;;
-5) xdg-open "https://wa.me/+573006709138?text=Hola,%20¿cómo%20estás%20＊*•̩̩͙✩•̩̩͙*˚ȼṛãcкãŀҽx*•̩̩͙✩•̩̩͙*˚＊"
+6) xdg-open "https://wa.me/+573006709138?text=Hola,%20¿cómo%20estás%20＊*•̩̩͙✩•̩̩͙*˚ȼṛãcкãŀҽx*•̩̩͙✩•̩̩͙*˚＊"
    Bannir
 ;;
-6) xdg-open "https://wa.me/+529984907794?text=Hola,%20¿cómo%20estás%20＊＊*•̩̩͙✩•̩̩͙*˚Ꮥ𝖆ṁ𐌵𝟛ᶾ𝟶*•̩̩͙✩•̩̩͙*˚＊"
+7) xdg-open "https://wa.me/+529984907794?text=Hola,%20¿cómo%20estás%20＊＊*•̩̩͙✩•̩̩͙*˚Ꮥ𝖆ṁ𐌵𝟛ᶾ𝟶*•̩̩͙✩•̩̩͙*˚＊"
    Bannir
 ;;
 00) echo "🧑‍💻saliendo del programa 🗡️.."
